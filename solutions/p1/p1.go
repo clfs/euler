@@ -1,7 +1,7 @@
-package solutions
+package p1
 
-// P1 solves problem 1.
-func P1() int {
+// Solve solves problem 1.
+func Solve() int {
 	sum := 0
 	for i := 1; i < 1000; i++ {
 		if i%3 == 0 || i%5 == 0 {
